@@ -52,5 +52,7 @@ nitrogen --restore &
 #	dwm >/dev/null 2>&1
 #done
 
+# added a comment for test
+
 # Execute DWM
 exec dwm 
