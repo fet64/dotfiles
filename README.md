@@ -36,3 +36,7 @@ $ config checkout
 $ config config --local status.showUntrackedFiles no
 
 ```
+
+## Password management
+I use pass: https://wiki.archlinux.org/title/Pass
+
