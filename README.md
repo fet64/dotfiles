@@ -29,7 +29,7 @@ $ config push -u origin master
 ```
 Install your dotfiles on a new machine
 ```
-$ alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+$ alias config='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 $ echo ".dotfiles" >> .gitignore  # And that your source repository ignores the folder where you'll clone it, so that you don't create weird recursion problems
 $ git clone --bare <git-repo-url> $HOME/.dotfiles
 $ config checkout
