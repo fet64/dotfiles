@@ -13,4 +13,3 @@ fi
 alias ls='ls --color=auto'
 PS1='\[\e[0m\][\[\e[0m\]\!\[\e[0m\]:\[\e[0m\]\w\[\e[0m\]:\[\e[0m\]$?\[\e[0m\]]\[\e[0m\]$\[\e[0m\] '
 alias config='/usr/bin/git --git-dir=/home/m/.dotfiles/ --work-tree=/home/m'
-
